@@ -57,4 +57,6 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Software Development :: Libraries',
     ],
+    use_scm_version=True,
+    setup_requires=['setuptools_scm'],
 )
